@@ -150,16 +150,6 @@ Jeśli chcesz pomóc w rozwoju projektu, możesz:
 * przygotować własne poprawki,
 * utworzyć pull request w repozytorium.
 
-## Licencja
-
-Dodaj tutaj informację o licencji, jeśli projekt ma być udostępniany publicznie.
-
-Przykład:
-
-```txt
-MIT License
-```
-
 ## Autor
 
 Projekt: **Ssonic**
