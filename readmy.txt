@@ -1,0 +1,33 @@
+SSONIC — galeria zdjęć do własnego użytku
+
+Galeria została przygotowana z myślą o prostym zarządzaniu własnymi zdjęciami bez konieczności ręcznego tworzenia miniatur.
+
+Najważniejsze są dwa miejsca:
+
+1. Folder ze zdjęciami:
+
+src_my_source/foto
+
+W tym folderze można tworzyć własne katalogi i dodawać zdjęcia. Po wczytaniu strony system automatycznie skanuje zawartość folderu i generuje miniatury zdjęć.
+
+W widoku galerii wyświetlane są miniatury, natomiast po kliknięciu w zdjęcie otwierany jest jego oryginalny plik w podglądzie.
+
+2. Plik konfiguracyjny:
+
+src_my_source/source/config.js
+
+W tym pliku można ustawić własne opcje działania galerii. Opis poszczególnych ustawień znajduje się bezpośrednio w pliku konfiguracyjnym.
+
+Można tam zmienić między innymi:
+
+* liczbę zdjęć na stronie,
+* wygląd tła,
+* działanie podpisów,
+* liczbę zdjęć w trybie kolażu,
+* obsługiwane rozszerzenia plików.
+
+Jeżeli chcesz dodać obsługę nowego typu pliku graficznego, wystarczy dopisać jego rozszerzenie w konfiguracji, np. do listy allowedExt.
+
+---
+
+Design by asperion24.eu
